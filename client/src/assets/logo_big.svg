@@ -1,0 +1,21 @@
+<!-- sample rectangle -->
+
+
+
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="340" viewBox="0 0 300 340">
+  <!-- Chat bubble with reduced width -->
+  <g transform="translate(70,0)">
+    <rect x="0" y="0" rx="40" ry="40" width="160" height="130" fill="#00C853"/>
+    <!-- More curved bottom pointer -->
+    <path d="M60 130 Q80 180 100 130 Z" fill="#00C853"/>
+    <!-- White dots -->
+    <circle cx="45" cy="65" r="12" fill="white"/>
+    <circle cx="80" cy="65" r="12" fill="white"/>
+    <circle cx="115" cy="65" r="12" fill="white"/>
+  </g>
+
+  <!-- Text SwiftTalk (slightly closer to logo) -->
+  <text x="150" y="225" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="bold" fill="#00C853">
+    SwiftTalk
+  </text>
+</svg>

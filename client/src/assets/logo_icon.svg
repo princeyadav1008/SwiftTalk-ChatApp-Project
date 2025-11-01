@@ -1,0 +1,15 @@
+<!-- sample rectangle -->
+
+<svg xmlns="http://www.w3.org/2000/svg" width="350" height="350" viewBox="0 0 350 350">
+  <!-- Larger Chat bubble -->
+  <g transform="translate(60,40)">
+    <rect x="0" y="0" rx="45" ry="45" width="200" height="160" fill="#00C853"/>
+    <!-- More curved bottom pointer -->
+    <path d="M70 160 Q100 220 130 160 Z" fill="#00C853"/>
+    <!-- White dots -->
+    <circle cx="60" cy="80" r="15" fill="white"/>
+    <circle cx="100" cy="80" r="15" fill="white"/>
+    <circle cx="140" cy="80" r="15" fill="white"/>
+  </g>
+</svg>
+
